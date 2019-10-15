@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import NavBar from "./nav/NavBar";
 import ApplicationViews from "./ApplicationViews";
+import NavBar from "./navBar/NavBar";
 
 class Main extends Component{
     render(){

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 class NavBar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-light fixed-center light-blue flex-md-nowrap p-0 shadow center">
+            <nav className="navbar navbar-dark fixed-center light-blue flex-md-nowrap p-0 shadow center">
                 <ul className="nav nav-pills">
                      <li className="nav-item">
                             <Link className="nav-link" to="/">Home</Link>

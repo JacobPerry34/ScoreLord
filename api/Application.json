@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jacob",
+      "password": "admin",
+      "email": "jacobpry34@gmail.com"
+    },
+    {
+      "name": "Seaver",
+      "password": "steam",
+      "email": "seaver@newforce.com",
+      "genreId": "Shooter",
+      "id": 2
+    }
+  ],
+  "machines": [
+    {
+      "id": 1,
+      "name": "Turtles in Time",
+      "details": "Year Released",
+      "genreId": 1,
+      "arcadeId": 1
+    }
+  ],
+  "userMachines": [
+    {
+      "id": 1,
+      "userId": 1,
+      "machineId": 1,
+      "high scores": [
+        10000,
+        50000,
+        10000
+      ]
+    }
+  ],
+  "arcades": [
+    {
+      "id": 1,
+      "name": "Peddler",
+      "location": "address"
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "name": [
+        "Beat-em-up",
+        "Shooter",
+        "Fighting",
+        "Platformer",
+        "Racing",
+        "Action/Adventure"
+      ]
+    }
+  ]
+}

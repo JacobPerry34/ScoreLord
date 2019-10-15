@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Main from './components/Main';
 import { BrowserRouter as Router } from "react-router-dom"
+import Main from './components/Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(
     <Router>
-      <Main />
+      < Main/>
     </Router>
     , document.getElementById('root'))
