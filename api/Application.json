@@ -28,11 +28,7 @@
       "id": 1,
       "userId": 1,
       "machineId": 1,
-      "high scores": [
-        10000,
-        50000,
-        10000
-      ]
+      "high scores": [10000, 50000, 10000]
     }
   ],
   "arcades": [
@@ -42,17 +38,10 @@
       "location": "address"
     }
   ],
-  "genre": [
+  "genres": [
     {
       "id": 1,
-      "name": [
-        "Beat-em-up",
-        "Shooter",
-        "Fighting",
-        "Platformer",
-        "Racing",
-        "Action/Adventure"
-      ]
+      "name": "Beat-em-up"
     }
   ]
 }

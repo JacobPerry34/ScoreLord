@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Home from "./home/Home";
 import RegistrationCard from "./auth/RegisterCard";
 import LoginCard from "./auth/LoginCard";
+import MachineList from "./machines/MachineList";
 class ApplicationViews extends Component {
   state = {
     users: []
@@ -31,6 +32,15 @@ class ApplicationViews extends Component {
             return <LoginCard {...props} userId = {parseInt(props.match.params.userId)}/>;
           }}
         />
+        <Route
+        exact
+          path="/machines"
+          render={props => {
+        return (<MachineList
+            {...props}
+            machines ={this.state.machines}
+            />
+        )}} />
       </React.Fragment>
     );
   }
