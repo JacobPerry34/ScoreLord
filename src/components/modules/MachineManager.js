@@ -2,7 +2,7 @@ const remoteURL = "http://localhost:5002"
 
 export default {
   getOneMachine(id) {
-    return fetch(`${remoteURL}/machines/${id}`).then(result => result.json())
+    return fetch(`${remoteURL}/machines/${id}?_expand=arcade&&_expand=genre`).then(result => result.json())
   },
   getAllMachines() {
     return fetch(`${remoteURL}/machines?_expand=arcade&&_expand=genre`).then(result => result.json())

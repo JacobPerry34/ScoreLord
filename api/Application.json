@@ -36,6 +36,11 @@
       "id": 1,
       "name": "Peddler",
       "location": "address"
+    },
+    {
+      "id": 2,
+      "name": "Quicksilver",
+      "location": "address"
     }
   ],
   "genres": [
