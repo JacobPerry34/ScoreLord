@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import './MachineCard.css'
 
 class MachineCard extends Component {
 
     render () {
         return (
             <div className= "card-container">
-                <div className= "card-content">
+                <div className= "card-content-machine">
                     <h3>Name:{" "}
                         <span className ="card-name">{this.props.machineProp.name}</span>
                     </h3>

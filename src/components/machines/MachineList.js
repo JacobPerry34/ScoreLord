@@ -8,7 +8,7 @@ import MachineManager from '../modules/MachineManager';
 class MachineList extends Component {
     //define what this component needs to render
     state = {
-        machines: [],
+        machines: []
     };
 
 componentDidMount(){

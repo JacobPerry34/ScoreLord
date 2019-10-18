@@ -6,6 +6,8 @@ import LoginCard from "./auth/LoginCard";
 import MachineList from "./machines/MachineList";
 import MachineDetail from "./machines/MachineDetail";
 import ArcadeCard from "./arcades/ArcadeCard";
+import HighScoresList from "./highscores/HigScoresList";
+import NewHighScore from "./highscores/NewHighScore";
 
 class ApplicationViews extends Component {
   state = {
@@ -74,6 +76,19 @@ class ApplicationViews extends Component {
                 {...props}
               />
             );
+          }}
+        />
+         <Route
+          exact
+          path="/userMachines/highScores"
+          render={props => {
+            return <HighScoresList {...props} highScores={this.state.highScores}  />;
+          }}
+        />
+        <Route
+          path="/userMachines"
+          render={props => {
+            return <NewHighScore {...props} userMachines= {this.state.userMachines} />;
           }}
         />
       </React.Fragment>

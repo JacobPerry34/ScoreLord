@@ -28,7 +28,19 @@
       "id": 1,
       "userId": 1,
       "machineId": 1,
-      "high scores": [10000, 50000, 10000]
+      "highScore": 10000
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "machineId": 1,
+      "highScore": 50000
+    },
+    {
+      "userId": 1,
+      "machineId": "",
+      "highScore": "",
+      "id": 3
     }
   ],
   "arcades": [

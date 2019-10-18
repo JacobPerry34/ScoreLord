@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MachineManager from "../modules/MachineManager";
+import HighScoresList from "../highscores/HigScoresList";
 
 
 
@@ -39,6 +40,7 @@ class MachineDetail extends Component {
           <p><span>{this.state.details}</span></p>
           <p><span>{this.state.genre}</span></p>
           <p><span>{this.state.arcade}</span></p>
+          <HighScoresList {...this.props} machines={this.props.machines}/>
           </div>
           </div>
           )
