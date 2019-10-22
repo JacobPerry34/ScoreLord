@@ -17,7 +17,7 @@ class NavBar extends Component {
                         <li className="nav-item">
                             <Link className="nav-link" to="/users/">User Profile</Link>
                         </li>
-                     <Logout {...this.props} />
+                     <Logout  />
                 </ul>
             </nav>
                 )

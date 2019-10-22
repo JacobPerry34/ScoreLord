@@ -39,7 +39,7 @@ render(){
                     arcades= {this.state.arcades}
                     {...this.props}
                   /> </div>
-         } else if(singleMachine.arcadeId === null){
+         } else if(this.props.arcadeId === undefined){
              return <div> <MachineCard
                             key ={singleMachine.id}
                             machineProp={singleMachine}
