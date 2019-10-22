@@ -24,7 +24,7 @@ class NewHighScore extends Component {
       this.setState({ loadingStatus: true });
       const newHighScore = {
         userId: parseInt(localStorage.getItem(`credentials`)),
-        machineId: this.state.machineId,
+        machineId: this.props.machineId,
         highScore: this.state.highScore
       };
       console.log(newHighScore);

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import HighScoreManager from '../modules/HighScoreManager';
 import HighScoresCard from './HighScoresCard';
 import NewHighScore from './NewHighScore';
+import HighScoresPerMachine from './HighScoresPerMachine';
 
 //import the components we will need
 
@@ -31,13 +32,21 @@ render(){
       </section>
       <h3>High Scores</h3>
       <div className="container-cards">
-        {this.state.highScores.map(singleHighScore =>
-                    <HighScoresCard
+        {this.state.highScores.map(singleHighScore =>{
+          if(singleHighScore.machineId === this.props.machineId){
+                  return  <HighScoresPerMachine
                     key={singleHighScore.id}
                     scoreProp={singleHighScore}
                     {...this.props}
                   />
-                )}
+        } else if(this.props.machineId === undefined){
+            return  <HighScoresPerMachine
+            key={singleHighScore.id}
+            scoreProp={singleHighScore}
+            {...this.props}
+          />
+        }
+        })}
     </div>
     <NewHighScore {...this.props} machines={this.props.machines}/>
       </React.Fragment>
