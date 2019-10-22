@@ -42,7 +42,7 @@ class NewHighScore extends Component {
           required
           onChange={this.handleFieldChange}
           id="highScore"
-          placeholder="High Score"
+          placeholder="           High Score"
         />
         <div className="alignRight">
           <Link to={`/machines`}>

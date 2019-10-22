@@ -9,6 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
     <Router>
-      < Main/>
+      < Main />
     </Router>
     , document.getElementById('root'))

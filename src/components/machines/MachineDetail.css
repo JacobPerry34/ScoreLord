@@ -1,6 +1,7 @@
-.card-content-machine{
+.card-content-detail{
     color: #ff4444;
     -webkit-box-shadow: inset -1px 3px 8px 5px #ff4444, 2px 5px 16px 0px #ff1000, 5px 5px 17px 5px rgba(0,0,0,0.11);
     text-align: center;
-    background-color:  rgb(88, 88, 88);
+    background-color:  rgb(88, 88, 88,);
+    block-size: auto
 }

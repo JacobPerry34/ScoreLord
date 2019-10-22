@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Jacob",
-      "password": "admin",
-      "email": "jacobpry34@gmail.com"
+      "email": "jacobpry34@gmail.com",
+      "password": "admin"
     },
     {
       "name": "Seaver",
@@ -21,6 +21,20 @@
       "details": "Year Released",
       "genreId": 1,
       "arcadeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mortal Kombat III",
+      "details": "Year Released",
+      "genreId": 2,
+      "arcadeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Street Fighter 2",
+      "details": "Year Released",
+      "genreId": 2,
+      "arcadeId": 2
     }
   ],
   "userMachines": [
@@ -39,8 +53,14 @@
     {
       "userId": 1,
       "machineId": "",
-      "highScore": "",
+      "highScore": "75000",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "machineId": "",
+      "highScore": "20000",
+      "id": 4
     }
   ],
   "arcades": [
@@ -59,6 +79,10 @@
     {
       "id": 1,
       "name": "Beat-em-up"
+    },
+    {
+      "id": 2,
+      "name": "Fighting"
     }
   ]
 }

@@ -12,7 +12,6 @@ class HighScoresCard extends Component {
             Name: <span className="card-name">{this.props.scoreProp.user.name}</span>
           </p>
           <p>
-            High Score:{" "}
             <span className="card-details">
               {this.props.scoreProp.highScore}
             </span>

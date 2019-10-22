@@ -9,11 +9,15 @@ class Home extends Component {
   render() {
     return (
       <div className ="background">
+        <div className="image">
+        <img className="capstone-logo" src={require("./LegitCapstoneLogo.png")} alt="PictureBook"/>
+        </div>
         <div className="logInButtons">
           <Login/>
+          <br></br>
           <Registration />
           </div>
-           <Dropdown>
+           <Dropdown className="dropdown">
   <Dropdown.Toggle variant="success" id="dropdown-basic">
     Find an Arcade
   </Dropdown.Toggle>

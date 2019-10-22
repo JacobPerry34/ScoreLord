@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MachineManager from "../modules/MachineManager";
 import HighScoresList from "../highscores/HigScoresList";
+import './MachineDetail.css'
 
 
 
@@ -31,7 +32,7 @@ class MachineDetail extends Component {
   render() {
     return (
       <div className="card">
-        <div className="card-content">
+        <div className="card-content-detail">
           <h3>
             <span style={{ color: "darkslategrey" }}>
               {this.state.name}

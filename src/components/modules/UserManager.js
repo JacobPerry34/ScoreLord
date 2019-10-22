@@ -4,6 +4,9 @@ export default {
   getOneUserName(userName) {
     return fetch(`${remoteURL}/users/?name=${userName}`).then(result => result.json())
   },
+  getOneUser(user) {
+    return fetch(`${remoteURL}/users/${user}`).then(result => result.json())
+  },
   getAllUserNames() {
     return fetch(`${remoteURL}/users`).then(result => result.json())
   },

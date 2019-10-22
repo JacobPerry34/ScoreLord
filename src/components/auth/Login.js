@@ -6,7 +6,7 @@ class Login extends Component {
     render() {
         return(
         <div>
-          <Link to={`/auth/LoginCard`}><button className="logo">Sign in</button></Link>
+          <Link to={`/auth/LoginCard`}><button className="logo btn btn-primary">Sign in</button></Link>
         </div>
         )}
 }

@@ -1,0 +1,32 @@
+.logInButtons{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    padding-top: 5px
+}
+.dropdown{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+
+}
+.capstone-logo{
+    size: auto;
+    height: 250px;
+    width : 250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-right: 20px;
+
+}
+
+.background{
+    color: #ff4444;
+    /* -webkit-box-shadow: inset -1px 3px 8px 5px #ff4444, 2px 5px 16px 0px #ff1000, 5px 5px 17px 5px rgba(0,0,0,0.11);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 50px; */
+
+}

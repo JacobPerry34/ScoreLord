@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar />
+        <NavBar {...this.props} />
         <ParallaxProvider>
           <Parallax className="parallax">
             <ApplicationViews />

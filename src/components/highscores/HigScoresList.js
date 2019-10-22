@@ -29,6 +29,7 @@ render(){
         <React.Fragment>
         <section className="section-content">
       </section>
+      <h3>High Scores</h3>
       <div className="container-cards">
         {this.state.highScores.map(singleHighScore =>
                     <HighScoresCard

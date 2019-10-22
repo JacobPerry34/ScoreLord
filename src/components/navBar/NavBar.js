@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom"
 import './NavBar.css'
+import Logout from "../auth/Logout";
 
 class NavBar extends Component {
     render() {
@@ -14,9 +15,9 @@ class NavBar extends Component {
                             <Link className="nav-link" to="/machines">Machines</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/users">User Profile</Link>
+                            <Link className="nav-link" to="/users/">User Profile</Link>
                         </li>
-                     {/* Button for Log Out */}
+                     <Logout {...this.props} />
                 </ul>
             </nav>
                 )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import MachineCard from './MachineCard';
 import MachineManager from '../modules/MachineManager';
+import './MachineList.css'
 //import the components we will need
 
 
@@ -8,6 +9,7 @@ import MachineManager from '../modules/MachineManager';
 class MachineList extends Component {
     //define what this component needs to render
     state = {
+        arcadeId: "",
         machines: []
     };
 
@@ -27,17 +29,29 @@ render(){
         <React.Fragment>
         <section className="section-content">
       </section>
-      <div className="container-cards">
-        {this.state.machines.map(singleMachine =>
-                    <MachineCard
+      <div className="container-cards-list">
+        {this.state.machines.map(singleMachine =>{
+// possibly map through machines twice with a different param, thus giving two seperate keys
+         if(singleMachine.arcadeId === this.props.arcadeId){
+                 return <div>   <MachineCard
                     key={singleMachine.id}
                     machineProp={singleMachine}
+                    arcades= {this.state.arcades}
                     {...this.props}
-                  />
-                )}
+                  /> </div>
+         } else if(singleMachine.arcadeId === null){
+             return <div> <MachineCard
+                            key ={singleMachine.id}
+                            machineProp={singleMachine}
+                            arcades ={this.state.arcades}
+                            {...this.props} /></div>
+         }
+
+
+         })}
     </div>
-      </React.Fragment>
-    )}}
+      </React.Fragment>)
+    }}
 
 
 

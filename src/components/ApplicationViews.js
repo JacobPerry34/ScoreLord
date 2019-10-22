@@ -8,6 +8,9 @@ import MachineDetail from "./machines/MachineDetail";
 import ArcadeCard from "./arcades/ArcadeCard";
 import HighScoresList from "./highscores/HigScoresList";
 import NewHighScore from "./highscores/NewHighScore";
+import UserCard from "./users/UserCard";
+import UserEditForm from "./users/UserEditCard";
+import Logout from "./auth/Logout";
 
 class ApplicationViews extends Component {
   state = {
@@ -46,11 +49,22 @@ class ApplicationViews extends Component {
             );
           }}
         />
+        {/* <Route
+        path="/"
+        render={props =>{
+          return (
+            <Logout
+            {...this.props}
+            />
+          )
+        }}
+        /> */}
         <Route
           exact
           path="/machines"
           render={props => {
-            return <MachineList {...props} machines={this.state.machines} />;
+            return <MachineList {...this.props} machines={this.state.machines} arcades={this.state.arcades}
+             />;
           }}
         />
         <Route
@@ -73,7 +87,8 @@ class ApplicationViews extends Component {
               <ArcadeCard
                 arcades={this.state.arcades}
                 arcadeId ={parseInt(props.match.params.arcadeId)}
-                {...props}
+                machines ={this.state.machines}
+                {...this.props}
               />
             );
           }}
@@ -89,6 +104,20 @@ class ApplicationViews extends Component {
           path="/userMachines"
           render={props => {
             return <NewHighScore {...props} userMachines= {this.state.userMachines} />;
+          }}
+        />
+        <Route
+          exact
+          path="/users/:userId(\d+)/edit"
+          render={props => {
+            return <UserEditForm{...props} />;
+          }}
+        />
+         <Route
+         exact
+          path="/users"
+          render={props => {
+            return <UserCard {...this.props} users={this.state.users} />;
           }}
         />
       </React.Fragment>
