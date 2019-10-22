@@ -1,5 +1,10 @@
 .container-cards-list{
-    display:flex;
+    display:grid;
     justify-content: space-evenly;
     padding-top: 10px;
+    grid-gap: .3em .6em;
+    grid-auto-flow: dense;
+    align-items: center;
+    grid-template-columns: 2fr 26em 2fr;
+
 }

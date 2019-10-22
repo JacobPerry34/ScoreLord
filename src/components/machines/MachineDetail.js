@@ -31,7 +31,7 @@ class MachineDetail extends Component {
   };
   render() {
     return (
-      <div className="card">
+      <div className="card-detail">
         <div className="card-content-detail">
           <h3>
             <span style={{ color: "darkslategrey" }}>

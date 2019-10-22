@@ -44,11 +44,75 @@
     },
     {
       "id": 3,
+      "name": "X-Men",
+      "details": "Year Released",
+      "genreId": 1,
+      "arcadeId": 1
+    },
+    {
+      "id": 4,
       "name": "Street Fighter 2",
       "details": "Year Released",
       "genreId": 2,
-      "arcadeId": 2
+      "arcadeId": 1
+    },
+    {
+      "id": 5,
+      "name": "NBA Jam",
+      "details": "Year Released",
+      "genreId": 3,
+      "arcadeId": 1
+    },
+    {
+      "id": 6,
+      "name": "South Park Pinball",
+      "details": "Year Released",
+      "genreId": 4,
+      "arcadeId": 1
+    },
+    {
+      "id": 7,
+      "name": "Time Crisis 3",
+      "details": "Year Released",
+      "genreId": 5,
+      "arcadeId": 1
+    },
+    {
+      "id": 8,
+      "name": "X-Men Vs Street Fighter",
+      "details": "Year Released",
+      "genreId": 2,
+      "arcadeId": 1
+    },
+    {
+      "id": 9,
+      "name": "House of The Dead 3",
+      "details": "Year Released",
+      "genreId": 5,
+      "arcadeId": 1
+    },
+    {
+      "id": 10,
+      "name": "Silent Scope X",
+      "details": "Year Released",
+      "genreId": 5,
+      "arcadeId": 1
+    },
+    {
+      "id": 11,
+      "name": "The Simpsons",
+      "details": "Year Released",
+      "genreId": 1,
+      "arcadeId": 1
+    },
+    {
+      "id": 12,
+      "name": "Gauntlet Legacy",
+      "details": "Year Released",
+      "genreId": 6,
+      "arcadeId": 1
     }
+
   ],
   "userMachines": [
     {
@@ -95,30 +159,6 @@
     },
     {
       "userId": 4,
-      "machineId": null,
-      "highScore": "1200000",
-      "id": 8
-    },
-    {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "200000",
-      "id": 9
-    },
-    {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "20000",
-      "id": 10
-    },
-    {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "25000",
-      "id": 11
-    },
-    {
-      "userId": 4,
       "machineId": 1,
       "highScore": "25000",
       "id": 11
@@ -152,70 +192,6 @@
       "machineId": 1,
       "highScore": "800000",
       "id": 16
-    },
-    {
-      "userId": 4,
-      "machineId": {
-        "machineId": 1,
-        "history": {
-          "length": 50,
-          "action": "POP",
-          "location": {
-            "pathname": "/machines/1",
-            "search": "",
-            "hash": "",
-            "key": "jr14ra"
-          }
-        },
-        "location": {
-          "pathname": "/machines/1",
-          "search": "",
-          "hash": "",
-          "key": "jr14ra"
-        },
-        "match": {
-          "path": "/machines/:machineId(\\d+)",
-          "url": "/machines/1",
-          "isExact": true,
-          "params": {
-            "machineId": "1"
-          }
-        }
-      },
-      "highScore": "87",
-      "id": 17
-    },
-    {
-      "userId": 4,
-      "machineId": {
-        "machineId": 1,
-        "history": {
-          "length": 50,
-          "action": "PUSH",
-          "location": {
-            "pathname": "/machines/1",
-            "search": "",
-            "hash": "",
-            "key": "r5yzxs"
-          }
-        },
-        "location": {
-          "pathname": "/machines/1",
-          "search": "",
-          "hash": "",
-          "key": "r5yzxs"
-        },
-        "match": {
-          "path": "/machines/:machineId(\\d+)",
-          "url": "/machines/1",
-          "isExact": true,
-          "params": {
-            "machineId": "1"
-          }
-        }
-      },
-      "highScore": "87",
-      "id": 18
     },
     {
       "userId": 4,
@@ -262,6 +238,22 @@
     {
       "id": 2,
       "name": "Fighting"
-    }
+    },
+    {
+      "id": 3,
+      "name": "Sports"
+    },
+    {
+      "id": 4,
+      "name": "Pinball"
+    },
+{
+  "id": 5,
+  "name":"Shooter"
+},
+{
+  "id":6,
+  "name": "Adventure"
+}
   ]
 }
