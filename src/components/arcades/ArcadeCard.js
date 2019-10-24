@@ -29,10 +29,10 @@ class ArcadeCard extends Component {
       <div className="card-container">
         <div className="card-content-arcade">
           <h3>
-            Name: <span className="card-name">{this.state.name}</span>
+             <span className="card-name">{this.state.name}</span>
           </h3>
           <p>
-            Location: <span className="card-arcade">{this.state.location}</span>
+             <span className="card-arcade">{this.state.location}</span>
           </p>
         </div>
         {/* If then statement, showing which arcade the machines are located */}

@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div className ="background">
-        <div className="image">
+        <div className="image-home">
         <img className="capstone-logo" src={require("./LegitCapstoneLogo.png")} alt="PictureBook"/>
         </div>
         <div className="logInButtons">

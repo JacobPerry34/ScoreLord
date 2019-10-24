@@ -1,7 +1,25 @@
 .card-content-detail{
-    color: #ff4444;
+    color: whitesmoke;
     -webkit-box-shadow: inset -1px 3px 8px 5px #ff4444, 2px 5px 16px 0px #ff1000, 5px 5px 17px 5px rgba(0,0,0,0.11);
     text-align: center;
+    padding-top:20px;
+background-color: #585858;
+;
+
+}
+.card-detail{
+    height:400px;
+    width:500px;
+    align-content: center;
+    justify-content:center;
+    margin-left:440px;
+    padding-top:20px;
     background-color:  rgb(88, 88, 88,);
-    block-size: auto
+
+
+}
+
+.image-detail{
+    height:275px;
+    width:220px
 }

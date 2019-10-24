@@ -10,17 +10,25 @@ class MachineList extends Component {
     //define what this component needs to render
     state = {
         arcadeId: "",
-        machines: []
+        machines: [],
+        search:""
     };
 
 componentDidMount(){
     MachineManager.getAllMachines()
     .then(machinesFromDatabase => {
         this.setState({
-            machines: machinesFromDatabase
+            machines: machinesFromDatabase,
         });
     });
-}
+};
+
+handleFieldChange = (evt) => {
+    const stateToChange = {}
+    stateToChange[evt.target.id] = evt.target.value
+    this.setState(stateToChange)
+  }
+
 
 render(){
     console.log("MachineList: Render");
@@ -29,8 +37,13 @@ render(){
         <React.Fragment>
         <section className="section-content">
       </section>
+      <input type="text" onChange={this.handleFieldChange} id="search" placeholder="Find a game"/>
+
       <div className="container-cards-list">
-        {this.state.machines.map(singleMachine =>{
+        {this.state.machines.filter(singleMachine =>
+          singleMachine.name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 || singleMachine.genre.name.toLowerCase().indexOf(this.state.search.toLocaleLowerCase()) !== -1 ||
+          singleMachine.arcade.name.toLowerCase().indexOf(this.state.search.toLocaleLowerCase()) !== -1)
+       .map(singleMachine =>{
 // possibly map through machines twice with a different param, thus giving two seperate keys
          if(singleMachine.arcadeId === this.props.arcadeId){
                  return <div>   <MachineCard
@@ -51,7 +64,8 @@ render(){
          })}
     </div>
       </React.Fragment>)
-    }}
+    }
+}
 
 
 

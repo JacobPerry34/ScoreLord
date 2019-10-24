@@ -31,23 +31,110 @@
     {
       "id": 1,
       "name": "Turtles in Time",
-      "details": "Year Released",
+      "details": "March 1991",
       "genreId": 1,
-      "arcadeId": 1
+      "arcadeId": 1,
+      "synopsis": "Teenage Mutant Ninja Turtles: Turtles in Time, released as Teenage Mutant Hero Turtles: Turtles in Time in Europe, is an arcade video game produced by Konami. A sequel to the original Teenage Mutant Ninja Turtles (TMNT) arcade game, it is a scrolling beat 'em up type game based mainly on the 1987 TMNT animated series. Originally an arcade game, Turtles in Time was ported to the Super Nintendo Entertainment System in 1992 under the title Teenage Mutant Ninja Turtles IV: Turtles in Time, continuing the numbering from the earlier Turtles games released on the original NES. That same year, a game that borrowed many elements, Teenage Mutant Ninja Turtles: The Hyperstone Heist, was released for the Mega Drive/Genesis.",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/TurtlesInTime.jpg?raw=true"
     },
     {
       "id": 2,
       "name": "Mortal Kombat III",
-      "details": "Year Released",
+      "details": "1995",
       "genreId": 2,
-      "arcadeId": 1
+      "arcadeId": 1,
+      "synopsis": "Mortal Kombat 3 is a fighting video game developed by Midway / Atari Games and first released into arcades in 1995 as the third game in the Mortal Kombat series. As in the previous games, it has a cast of characters that players choose from and guide through a series of battles against other opponents.",
+      "image": "https://www.arcade-museum.com/images/106/1066270434.jpg"
     },
     {
       "id": 3,
+      "name": "X-Men",
+      "details": "1992",
+      "genreId": 1,
+      "arcadeId": 1,
+      "synopsis": "X-Men (エックス・メン) is an arcade game produced by Konami in 1992. It is a side-scrolling beat 'em up based on the Marvel Comics characters of the same name. The character designs of the X-Men and the supervillains in the game are based on the 1989 X-Men pilot episode X-Men: Pryde of the X-Men. In the game, players control one of the six playable X-Men to defeat their enemy Magneto. Konami made a six-player version of the game utilizing two screens housed in a deluxe cabinet.",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/X-MenMachine.jpg?raw=true"
+    },
+    {
+      "id": 4,
       "name": "Street Fighter 2",
-      "details": "Year Released",
+      "details": "February 6, 1991",
       "genreId": 2,
-      "arcadeId": 2
+      "arcadeId": 1,
+      "synopsis": "Street Fighter II[a] is a competitive fighting game developed by Capcom and released for arcades in 1991. The sequel to the 1987 game Street Fighter, it adds multiple playable characters, each with their own fighting style, and features such as command-based special moves, a six-button configuration, and a combo system. It was the fourteenth Capcom game to use the CP System arcade system board.",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/StreetFighter2.jpg?raw=true"
+    },
+    {
+      "id": 5,
+      "name": "NBA Jam",
+      "details": "1993",
+      "genreId": 3,
+      "arcadeId": 1,
+      "synopsis": "NBA Jam is a basketball arcade game published and developed by Midway in 1993. It is the first entry in the NBA Jam series. The project leader for this game was Mark Turmell. Midway had previously released such sports games as Arch Rivals in 1989, High Impact in 1990, and Super High Impact in 1991.",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/NbaJam.jpg?raw=true"
+    },
+    {
+      "id": 6,
+      "name": "South Park Pinball",
+      "details": "1999",
+      "genreId": 4,
+      "arcadeId": 1,
+      "synopsis": "South Park is a 1999 pinball game based on the American adult animated sitcom of the same name and released by Sega Pinball. This game was Sega's last pinball game; production would be continued by Stern Pinball, the successor to Sega Pinball.",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/SouthParkPinball.jpg?raw=true"
+    },
+    {
+      "id": 7,
+      "name": "Time Crisis 3",
+      "details": "September 16, 2002",
+      "genreId": 5,
+      "arcadeId": 1,
+      "synopsis": "Time Crisis 3 is the third installment of the Time Crisis arcade series. Like its previous predecessor, Time Crisis II, it allows for two players to cooperate in a link play environment and has the Time Crisis signature pedal system for hiding and advancing and the first in the series to change or select weapons ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/TimeCrisis3.jpg?raw=true"
+    },
+    {
+      "id": 8,
+      "name": "X-Men Vs Street Fighter",
+      "details": "September 9, 1996",
+      "genreId": 2,
+      "arcadeId": 1,
+      "synopsis": "X-Men vs. Street Fighter is a crossover fighting video game developed and published by Capcom. It is Capcom's third fighting game to feature Marvel Comics characters, following X-Men: Children of the Atom and Marvel Super Heroes, and the first installment in the Marvel vs. Capcom series. ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/X-MenVsStreetFigher.jpg?raw=true"
+    },
+    {
+      "id": 9,
+      "name": "House of The Dead 3",
+      "details": "June 1, 2002",
+      "genreId": 5,
+      "arcadeId": 1,
+      "synopsis": "The House of the Dead III is a 2002 light gun arcade game with a horror zombie-survival theme, and the third installment to the House of the Dead series of video games, developed by Wow Entertainment and Sega ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/HouseOfTheDead3.jpg?raw=true"
+    },
+    {
+      "id": 10,
+      "name": "Silent Scope X",
+      "details": "October 15, 2002",
+      "genreId": 5,
+      "arcadeId": 1,
+      "synopsis": "Silent Scope 3 is a rail shooter video game developed and published by Konami. ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/SilentScopeX.jpg?raw=true"
+    },
+    {
+      "id": 11,
+      "name": "The Simpsons",
+      "details": "March 4, 1991",
+      "genreId": 1,
+      "arcadeId": 1,
+      "synopsis": "The Simpsons is an arcade beat 'em up developed and published by Konami released in 1991. It was the first video game based on the eponymous franchise to be released in North America ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/TheSimpsons.jpg?raw=true"
+    },
+    {
+      "id": 12,
+      "name": "Gauntlet Legacy",
+      "details": "2000",
+      "genreId": 6,
+      "arcadeId": 1,
+      "synopsis": "Gauntlet Dark Legacy is a video game originally released to arcades in 2000. It is the sixth title in the Gauntlet series, and is an expansion of the previous title in the series, Gauntlet Legends. The expansion adds five new levels, and four new character classes: Dwarf, Knight, Jester, and Sorceress. ",
+      "image": "https://github.com/JacobPerry34/ScoreLord/blob/master/GauntletLegacy.jpg?raw=true"
     }
   ],
   "userMachines": [
@@ -65,181 +152,99 @@
     },
     {
       "userId": 1,
-      "machineId": "",
-      "highScore": "75000",
+      "machineId": 2,
+      "highScore": 300000,
       "id": 3
     },
     {
       "userId": 1,
-      "machineId": "",
-      "highScore": "20000",
+      "machineId": 2,
+      "highScore": 555555555,
       "id": 4
     },
     {
-      "userId": 4,
-      "machineId": "",
-      "highScore": "5000000000000000000000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 22,
       "id": 5
     },
     {
-      "userId": 4,
-      "machineId": "",
-      "highScore": "120000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 830000,
       "id": 6
     },
     {
-      "userId": 4,
-      "machineId": "",
-      "highScore": "Test Number",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 1200000,
       "id": 7
     },
     {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "1200000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 2100000,
       "id": 8
     },
     {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "200000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 111111111111,
       "id": 9
     },
     {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "20000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 12,
       "id": 10
     },
     {
-      "userId": 4,
-      "machineId": null,
-      "highScore": "25000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 1,
       "id": 11
     },
     {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "25000",
-      "id": 11
-    },
-    {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "1200000",
+      "userId": 1,
+      "machineId": 2,
+      "highScore": 2,
       "id": 12
     },
     {
-      "userId": 4,
+      "userId": 1,
       "machineId": 2,
-      "highScore": "25",
+      "highScore": 3,
       "id": 13
     },
     {
-      "userId": 4,
+      "userId": 1,
       "machineId": 2,
-      "highScore": "100000000",
+      "highScore": 8,
       "id": 14
     },
     {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "500000",
+      "userId": 1,
+      "machineId": 3,
+      "highScore": 12000,
       "id": 15
     },
     {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "800000",
+      "userId": 1,
+      "machineId": 7,
+      "highScore": 20000,
       "id": 16
     },
     {
-      "userId": 4,
-      "machineId": {
-        "machineId": 1,
-        "history": {
-          "length": 50,
-          "action": "POP",
-          "location": {
-            "pathname": "/machines/1",
-            "search": "",
-            "hash": "",
-            "key": "jr14ra"
-          }
-        },
-        "location": {
-          "pathname": "/machines/1",
-          "search": "",
-          "hash": "",
-          "key": "jr14ra"
-        },
-        "match": {
-          "path": "/machines/:machineId(\\d+)",
-          "url": "/machines/1",
-          "isExact": true,
-          "params": {
-            "machineId": "1"
-          }
-        }
-      },
-      "highScore": "87",
+      "userId": 1,
+      "machineId": 7,
+      "highScore": 50002,
       "id": 17
     },
     {
-      "userId": 4,
-      "machineId": {
-        "machineId": 1,
-        "history": {
-          "length": 50,
-          "action": "PUSH",
-          "location": {
-            "pathname": "/machines/1",
-            "search": "",
-            "hash": "",
-            "key": "r5yzxs"
-          }
-        },
-        "location": {
-          "pathname": "/machines/1",
-          "search": "",
-          "hash": "",
-          "key": "r5yzxs"
-        },
-        "match": {
-          "path": "/machines/:machineId(\\d+)",
-          "url": "/machines/1",
-          "isExact": true,
-          "params": {
-            "machineId": "1"
-          }
-        }
-      },
-      "highScore": "87",
-      "id": 18
-    },
-    {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "87",
-      "id": 19
-    },
-    {
-      "userId": 4,
-      "machineId": 1,
-      "highScore": "69",
-      "id": 20
-    },
-    {
-      "userId": 4,
-      "machineId": 2,
-      "highScore": "69",
-      "id": 21
-    },
-    {
-      "userId": 4,
+      "userId": 1,
       "machineId": 3,
-      "highScore": "6969",
-      "id": 22
+      "highScore": 87,
+      "id": 18
     }
   ],
   "arcades": [
@@ -257,11 +262,27 @@
   "genres": [
     {
       "id": 1,
-      "name": "Beat-em-up"
+      "name": "Beat'em up"
     },
     {
       "id": 2,
       "name": "Fighting"
+    },
+    {
+      "id": 3,
+      "name": "Sports"
+    },
+    {
+      "id": 4,
+      "name": "Pinball"
+    },
+    {
+      "id": 5,
+      "name": "Shooter"
+    },
+    {
+      "id": 6,
+      "name": "Adventure"
     }
   ]
 }

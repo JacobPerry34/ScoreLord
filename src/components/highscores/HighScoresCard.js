@@ -7,9 +7,9 @@ class HighScoresCard extends Component {
   render() {
     return (
       <div className="card-container">
-        <div className="card-content">
+        <div className="card-content-scores">
           <p>
-            Name: <span className="card-name">{this.props.scoreProp.user.name}</span>
+            Name: <span className="card-scores">{this.props.scoreProp.user.name}</span>
           </p>
           <p>
             <span className="card-details">

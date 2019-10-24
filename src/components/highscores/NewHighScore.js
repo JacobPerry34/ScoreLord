@@ -25,11 +25,11 @@ class NewHighScore extends Component {
       const newHighScore = {
         userId: parseInt(localStorage.getItem(`credentials`)),
         machineId: this.props.machineId,
-        highScore: this.state.highScore
+        highScore: parseInt(this.state.highScore)
       };
       console.log(newHighScore);
       HighScoreManager.post(newHighScore).then(() =>
-        this.props.history.push("/machines")
+        this.props.history.push(`/machines/${this.props.machineId}`)
       );
     }
   };
@@ -45,7 +45,6 @@ class NewHighScore extends Component {
           placeholder="           High Score"
         />
         <div className="alignRight">
-          <Link to={`/machines`}>
             <button
               type="button"
               disabled={this.state.loadingStatus}
@@ -53,7 +52,6 @@ class NewHighScore extends Component {
             >
               Submit
             </button>
-          </Link>
         </div>
       </React.Fragment>
     );
