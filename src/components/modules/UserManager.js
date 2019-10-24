@@ -7,6 +7,9 @@ export default {
   getOneUser(user) {
     return fetch(`${remoteURL}/users/${user}`).then(result => result.json())
   },
+  searchByValue(search){
+return fetch(`${remoteURL}/machines?q=${search}&_sort=name&_order=desc`).then(result=> result.json())
+  },
   getAllUserNames() {
     return fetch(`${remoteURL}/users`).then(result => result.json())
   },

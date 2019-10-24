@@ -97,7 +97,7 @@ class ApplicationViews extends Component {
           exact
           path="/userMachines/highScores"
           render={props => {
-            return <HighScoresList {...props} highScores={this.state.highScores}  />;
+            return <HighScoresList {...props} highScores={this.state.highScores} constructNewScore />;
           }}
         />
         <Route

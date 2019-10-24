@@ -21,7 +21,27 @@ componentDidMount(){
             highScores: scoresFromDatabase
         });
     });
-}
+};
+
+constructNewScore = evt => {
+    evt.preventDefault();
+    if (this.state.highScore === " ") {
+      window.alert("Please input data");
+    } else {
+      this.setState({ loadingStatus: true });
+      const newHighScore = {
+        userId: parseInt(localStorage.getItem(`credentials`)),
+        machineId: this.props.machineId,
+        highScore: parseInt(this.state.highScore)
+      };
+      console.log(newHighScore);
+      HighScoreManager.post(newHighScore).then(() =>{
+     this.setState ={
+         highScores: newHighScore
+     }
+    })
+    }
+  };
 
 render(){
     console.log("HighScoresList: Render");
@@ -37,6 +57,7 @@ render(){
                   return  <HighScoresPerMachine
                     key={singleHighScore.id}
                     scoreProp={singleHighScore}
+                    constructNewScore
                     {...this.props}
                   />
         } else if(this.props.machineId === undefined){
@@ -48,7 +69,7 @@ render(){
         }
         })}
     </div>
-    <NewHighScore {...this.props} machines={this.props.machines}/>
+    <NewHighScore constructNewScore {...this.props} machines={this.props.machines}/>
       </React.Fragment>
     )}}
 

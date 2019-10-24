@@ -11,6 +11,8 @@ class MachineDetail extends Component {
     details: "",
     genre:"",
     arcade:"",
+    synopsis:"",
+    image: "",
     machineArray: [],
     loadingStatus: true
   };
@@ -25,6 +27,8 @@ class MachineDetail extends Component {
         details: machine.details,
         genre: machine.genre.name,
         arcade: machine.arcade.name,
+        synopsis: machine.synopsis,
+        image: machine.image,
         loadingStatus: false
       });
     });
@@ -34,11 +38,13 @@ class MachineDetail extends Component {
       <div className="card-detail">
         <div className="card-content-detail">
           <h3>
-            <span style={{ color: "darkslategrey" }}>
+            <span>
               {this.state.name}
             </span>
           </h3>
+          <p><span><img className="image-detail" src={this.state.image} alt="GauntletPicture"></img></span></p>
           <p><span>{this.state.details}</span></p>
+          <p><span>{this.state.synopsis}</span></p>
           <p><span>{this.state.genre}</span></p>
           <p><span>{this.state.arcade}</span></p>
           <HighScoresList {...this.props} machines={this.props.machines}/>
